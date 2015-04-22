@@ -3,7 +3,7 @@
 This script is used for creating a set of "soft jaws" for a hold a part to be machined.
 
 ![Image of SoftJaws Dialog]
-(./resources/SoftJaws-Dialog.png)
+(./resources/Fusion360SoftJaws-Dialog.png)
 
 ## Installation
 
@@ -27,9 +27,10 @@ The script should now be installed and ready to run.
 1. Run the "SoftJaws" script from the Script Manager
 2. The settings dialog will be shown.  Adjust to your preferences:
 
-  ![Image of SoftJaws Dialog](./resources/SoftJaws-Dialog.png)
+  ![Image of SoftJaws Dialog](./resources/Fusion360SoftJaws-Dialog.png)
 
   - Body : Select the body the soft jaws will hold
+  - Vise : Select a specific vise to populate dimensions below
   - Length : Length (x) of soft jaws
   - Width : Width (y) of soft jaws
   - Height : Height (z) of soft jaws
@@ -44,13 +45,18 @@ Note, after the script has run the design changes may be undone using Edit -> Un
 Here is an example of using the script to create a set of soft jaws for a design.
 
 1. Start Fusion 360
-2. In a new document, run the SoftJaws (Javascript) script.
+2. Open a design containing the part the soft jaws will hold
+3. Run the SoftJaws (Javascript) script from the Script Manager.
 
-  ![SoftJaws Script](./resources/SoftJaws-Step-1.png)
+  ![SoftJaws Script](./resources/Fusion360SoftJaws-Script.png)
 
-10. Click OK to start the ball rolling
+4. The settings dialog will be shown.
+
+  ![Image of SoftJaws Dialog](./resources/Fusion360SoftJaws-Dialog.png)
+
+5. TODO
+4. Click OK to start the ball rolling
 
 ## Issues
 
 - The script uses the Boundary Fill command which is not part of the API. But it can be run as a "command". But this will stop the soft jaws command (script) from running. Therefore the need to manually split the soft jaws after performing the boundary fill.
--
