@@ -1,0 +1,10 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"script",
+	"author":	"Hans Kellner",
+	"description":	{
+		"":	"Generate a set of soft jaws for holding a part"
+	},
+	"supportedOS":	"windows|mac",
+	"autodeskLibraries":	["application", "dashboard", "geometry", "materials", "userInterface", "utilities", "bRep", "components", "construction", "features", "fusion", "meshBody", "meshData", "sketch", "tSpline"]
+}
