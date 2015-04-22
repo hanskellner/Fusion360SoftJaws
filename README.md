@@ -57,6 +57,13 @@ Here is an example of using the script to create a set of soft jaws for a design
 5. TODO
 4. Click OK to start the ball rolling
 
+## TODO
+- Load the list of vise models and values from an external user editable txt file.
+- Integrate "foundary fill" operation once exposed through API.
+- Add automatic splitting of soft jaws body after boundary fill operation
+- Add mounting holes to the soft jaws
+
 ## Issues
 
 - The script uses the Boundary Fill command which is not part of the API. But it can be run as a "command". But this will stop the soft jaws command (script) from running. Therefore the need to manually split the soft jaws after performing the boundary fill.
+- Selecting a vise from the list of "Vise" models doesn't always change the other values in the dialog.
