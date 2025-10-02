@@ -21,7 +21,7 @@ Copy the "Fusion360SoftJaws" folder into your Fusion 360 "My Scripts" folder. Yo
 6. Now add the script to the lists of "My Scripts"
 7. Click the "+" icon next to the "my Scripts" item
   - The "Add new script" dialog should appear.
-8. Locate the Fusion360SoftJaws.js file in the folder you copied, select it, and click Open. The script should now be installed and ready to be run.
+8. Locate the SoftJaws.js file in the folder you copied, select it, and click Open. The script should now be installed and ready to be run.
 
 The script should be ready to run.
 
